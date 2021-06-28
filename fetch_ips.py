@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-#   
+#
 #   Author  :   XueWeiHan
 #   E-mail  :   595666367@qq.com
 #   Date    :   2020-05-19 15:27
@@ -14,7 +14,7 @@ from datetime import datetime, timezone, timedelta
 from collections import Counter
 
 import requests
-from retry import retry
+from tenacity import retry
 
 RAW_URL = [
     "alive.github.com",
