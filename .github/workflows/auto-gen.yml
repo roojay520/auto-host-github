@@ -4,9 +4,6 @@
 name: auto-gen
 
 on:
-  push:
-    tags:
-      - '*'
   schedule:
     - cron: '0 */2 * * *'
 
